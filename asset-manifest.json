@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/changBackground/static/css/main.073c9b0a.css",
+    "main.js": "/changBackground/static/js/main.ba82bcff.js",
+    "static/js/787.498f9bac.chunk.js": "/changBackground/static/js/787.498f9bac.chunk.js",
+    "static/media/home1.png": "/changBackground/static/media/home1.7a1d4975127f529d5d19.png",
+    "static/media/bgColor1.png": "/changBackground/static/media/bgColor1.d00442a0ee4ef459acc6.png",
+    "static/media/bgColor2.png": "/changBackground/static/media/bgColor2.7220b6c701f78caf03b5.png",
+    "static/media/bgColor4.png": "/changBackground/static/media/bgColor4.78ad1c50c6b301cbd3e1.png",
+    "static/media/bgColor3.png": "/changBackground/static/media/bgColor3.a6ac9f54e64d9c4cc379.png",
+    "index.html": "/changBackground/index.html",
+    "main.073c9b0a.css.map": "/changBackground/static/css/main.073c9b0a.css.map",
+    "main.ba82bcff.js.map": "/changBackground/static/js/main.ba82bcff.js.map",
+    "787.498f9bac.chunk.js.map": "/changBackground/static/js/787.498f9bac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.ba82bcff.js"
+  ]
+}
