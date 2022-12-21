@@ -2,6 +2,11 @@ import './App.css';
 import styled from 'styled-components';
 import { useState } from 'react';
 import html2canvas from 'html2canvas';
+import home1 from './home1.png'
+import bgColor1 from './bgColor1.png'
+import bgColor2 from './bgColor2.png'
+import bgColor3 from './bgColor3.png'
+import bgColor4 from './bgColor4.png'
 
 
 const Container= styled.div` 
@@ -95,9 +100,9 @@ function App() {
       }
       downloadImage(image)
       console.log('file',image)
-     });
+    });
 
-     html2canvas(document.querySelector("#captureHome"), {
+    html2canvas(document.querySelector("#captureHome"), {
       allowTaint: false,
       useCORS: true,
       logging: true,
@@ -119,10 +124,12 @@ function App() {
       }
       downloadImage(image)
       console.log('file',image)
-     });
+    });
   }
 
+
   const bt = ['style 1','style 2','style 3','style 4']
+
   return (
     <Container>
       <DivButtonSelectBG>
@@ -161,7 +168,7 @@ function App() {
       <DivImg id="captureImg" 
       width={'800px'}
       height={'534px'}
-      src='/9.png'
+      src={bgColor1}
       bg={colorHex}/>
       </DivInputHEXAndText>
       }
@@ -172,7 +179,7 @@ function App() {
       <DivImg id="captureImg" 
       width={'463px'}
       height={'694px'}
-      src='/19.png'
+      src={bgColor2}
       bg={colorHex}/>
       </DivInputHEXAndText>
       }
@@ -183,7 +190,7 @@ function App() {
       <DivImg id="captureImg" 
       width={'400px'}
       height={'600px'}
-      src='/33.png'
+      src={bgColor3}
       bg={colorHex}/>
       </DivInputHEXAndText>
       }
@@ -194,7 +201,7 @@ function App() {
       <DivImg id="captureImg" 
       width={'400px'}
       height={'600px'}
-      src='/37.png'
+      src={bgColor4}
       bg={colorHex}/>
       </DivInputHEXAndText>
       }
@@ -203,7 +210,7 @@ function App() {
       <DivImg id="captureHome" 
       width={'750px'}
       height={'750px'}
-      src='/home1.png'
+      src={home1}
       bg={colorHex}/>
       </DivInputHEXAndText>
       </DivInputHEXAndText>
